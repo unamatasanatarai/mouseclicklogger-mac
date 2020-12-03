@@ -3,7 +3,7 @@ CFLAGS=-framework ApplicationServices -framework Carbon
 SOURCES=mouselogger.c
 EXECUTABLE=mouselogger
 INSTALLDIR=~/bin
-LOGSPATH=~/.mouselogger
+LOGSPATH=~/.cache/mousekeylogs
 
 compile: $(SOURCES)
 	$(CC) $(SOURCES) $(CFLAGS) -o $(EXECUTABLE)
